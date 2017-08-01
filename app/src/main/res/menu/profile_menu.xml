@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Este menu nos enviara a otra activity es por ello que no necesita
+    contener algun item con titulo solo se necesita mostrar que existe un menu-->
+    <item android:id="@+id/profileMenu">
+
+    </item>
+
+</menu>
