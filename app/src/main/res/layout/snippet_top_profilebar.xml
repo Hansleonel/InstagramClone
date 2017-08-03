@@ -24,6 +24,16 @@
                     android:text="codehans"
                     android:textColor="@android:color/black"
                     android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/profileMenu"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_ellipses" />
             </RelativeLayout>
         </android.support.v7.widget.Toolbar>
 

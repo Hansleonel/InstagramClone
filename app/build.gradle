@@ -34,4 +34,7 @@ dependencies {
     //libreria para modificar la animacion del navigationView
     compile 'com.github.ittianyu:BottomNavigationViewEx:1.2.2'
 
+    //Libreria para visualizar images como images_circle_view
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
 }

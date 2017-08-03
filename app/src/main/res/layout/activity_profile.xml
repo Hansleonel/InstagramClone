@@ -10,7 +10,16 @@
 
         <include layout="@layout/snippet_top_profilebar" />
 
+        <include layout="@layout/layout_center_profile"/>
+
         <include layout="@layout/layout_bottom_navigation_view" />
+
+        <ProgressBar
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/profileProgressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
 
     </RelativeLayout>
 
