@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new MainFragment());
         adapter.addFragment(new MessagesFragment());
 
+        //el viewPager actua como contenedor de los fragments
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPagerContainer);
         //agrega el adaptador con los fragments dentro de los tabs al viewpager
         viewPager.setAdapter(adapter);
